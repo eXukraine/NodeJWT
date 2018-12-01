@@ -28,7 +28,7 @@ app.use((req, res, next) => {
     res.status(404);
     res.json({
       status: 404,
-      message: 'Route not found!',
+      message: 'Route not found! server',
     });
     next();
   });
